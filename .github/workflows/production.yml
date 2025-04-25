@@ -59,7 +59,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: diya_0816/diya_0816:${{ github.sha }}
+          tags: diya0816/diya0816:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
           cache-from: type=registry,ref=diya_0816/diya_0816:cache
           cache-to: type=inline,mode=max
